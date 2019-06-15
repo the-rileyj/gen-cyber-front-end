@@ -6,3 +6,9 @@ services:
       - "80"
     ports:
       - "80:80"
+    networks:
+      - rjnet
+
+networks:
+  rjnet:
+    name: rjnewsite_default
