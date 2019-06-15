@@ -1,8 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+/bwi
 /node_modules
 /.pnp
+/.vscode
 .pnp.js
 
 # testing
@@ -21,3 +23,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# PyTest Cache
+
+**/.pytest_cache/
+**/__pycache__/
+
+# Virtualenv
+
+gcfe/
