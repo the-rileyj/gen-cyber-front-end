@@ -1,6 +1,7 @@
-version: "3"
+version: "3.5"
+
 services:
-  gen-cyber-front-end:
+  gen-cyber-front-end-server:
     build: .
     expose:
       - "80"
