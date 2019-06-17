@@ -1,0 +1,20 @@
+<html>
+    <body style="background-color: #004165">
+        <div id="main" style="background-color: grey; margin: 1%; overflow: auto"></div>
+        <script>
+            var mainDiv = document.getElementById("main");
+
+            var i = 1
+
+            for (i = 1; i <= 3; i++) {
+                mainDiv.innerHTML += '<div  style="background-color: white; margin: 1%; overflow: auto" >' + i + "</div>";
+            }
+
+            mainDiv.addEventListener("click", function() {
+                mainDiv.innerHTML += '<div  style="background-color: white; margin: 1%; overflow: auto" >' + i + "</div>";
+
+                i++
+            })
+        </script>
+    </body>
+</html>
