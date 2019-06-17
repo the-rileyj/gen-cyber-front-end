@@ -214,7 +214,7 @@ The **Front-End** of websites is what you see in your browser when you visit a w
         <script>
             var mainDiv = document.getElementById("main");
 
-            var i = 1
+            var i = 1;
 
             for (i = 1; i <= 3; i++) {
                 mainDiv.innerHTML += '<div  style="background-color: white; margin: 1%; overflow: auto" >' + i + "</div>";
@@ -223,7 +223,7 @@ The **Front-End** of websites is what you see in your browser when you visit a w
             mainDiv.addEventListener("click", function() {
                 mainDiv.innerHTML += '<div  style="background-color: white; margin: 1%; overflow: auto" >' + i + "</div>";
 
-                i++
+                i++;
             })
         </script>
     </body>
@@ -237,24 +237,24 @@ The **Front-End** of websites is what you see in your browser when you visit a w
 
 ~~~html
 <html>
-<body style="background-color: #004165">
-    <div id="main" style="background-color: grey; margin: 1%; overflow: auto"></div>
-    <script>
-        var mainDiv = document.getElementById("main");
+    <body style="background-color: #004165">
+        <div id="main" style="background-color: grey; margin: 1%; overflow: auto"></div>
+        <script>
+            var mainDiv = document.getElementById("main");
 
-        var i = 1
+            var i = 1;
 
-        for (i = 1; i <= 3; i++) {
-            mainDiv.innerHTML += '<div  style="background-color: white; margin: 1%; overflow: auto" >' + i + "</div>";
-        }
+            for (i = 1; i <= 3; i++) {
+                mainDiv.innerHTML += '<div  style="background-color: white; margin: 1%; overflow: auto" >' + i + "</div>";
+            }
 
-        document.addEventListener("click", function() {
-            mainDiv.innerHTML += '<div  style="background-color: white; margin: 1%; overflow: auto" >' + i + "</div>";
+            document.addEventListener("click", function() {
+                mainDiv.innerHTML += '<div  style="background-color: white; margin: 1%; overflow: auto" >' + i + "</div>";
 
-            i++
-        })
-    </script>
-</body>
+                i++;
+            })
+        </script>
+    </body>
 </html>
 ~~~
 `
